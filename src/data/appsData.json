@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "title": "SmPian-ToDo List With Reminder",
+    "companyName": "SmPian-Studio",
+    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=400&auto=format&fit=crop&q=80",
+    "description": "SmPian-ToDo List With Reminder is a simple yet powerful task management tool designed to keep your day structured, clear, and productively focused. Whether you are managing work projects, tracking personal habits, or organizing quick daily grocery lists, SmPian empowers you to achieve more with less stress. Featuring intelligent push notifications, tag-based categorization, subtask breakdowns, and cross-device cloud synchronization, your schedule stays aligned wherever life takes you.",
+    "size": 24,
+    "reviews": 54200,
+    "ratingAvg": 4.9,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 36000 }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Focus Time - Pro Productivity",
+    "companyName": "Nexus Mobile Labs",
+    "image": "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=400&auto=format&fit=crop&q=80",
+    "description": "Focus Time Pro brings customizable Pomodoro intervals, ambient white noise sounds, and deep distraction blocking to keep you focused on deep work. Track your daily focus statistics, earn accomplishment streaks, and integrate seamlessly with calendar tools to master your workday schedule.",
+    "size": 18,
+    "reviews": 42100,
+    "ratingAvg": 4.8,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 2700 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "5 star", "count": 26000 }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "PVP - Focus Time For Study",
+    "companyName": "StudyTech Global",
+    "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&auto=format&fit=crop&q=80",
+    "description": "PVP Focus Time turns study sessions into an engaging gamified experience. Compete with fellow students in quiet virtual study rooms, track chapter milestones, and earn focus points to unlock study reward badges while preparing for exams.",
+    "size": 32,
+    "reviews": 31500,
+    "ratingAvg": 4.7,
+    "downloads": 3900000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 3100 },
+      { "name": "4 star", "count": 9200 },
+      { "name": "5 star", "count": 17000 }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Pomodoro - Daily Focus & Timer",
+    "companyName": "Zenith Interactive",
+    "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=400&auto=format&fit=crop&q=80",
+    "description": "Master time management with Pomodoro Daily Focus. Features classic 25-minute study intervals, customizable break lengths, weekly productivity reports, and subtle audio cues designed to maximize mental retention without causing fatigue.",
+    "size": 15,
+    "reviews": 28900,
+    "ratingAvg": 4.6,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 750 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 3400 },
+      { "name": "4 star", "count": 8500 },
+      { "name": "5 star", "count": 15050 }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Time Tracker: Schedule & Tasks",
+    "companyName": "ChronoCraft Inc.",
+    "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=400&auto=format&fit=crop&q=80",
+    "description": "Track every hour of your workday effortlessly with automated time categorization, project tags, exportable PDF timesheets, and client billing reports. Perfect for freelancers, developers, and team leads.",
+    "size": 29,
+    "reviews": 61200,
+    "ratingAvg": 4.8,
+    "downloads": 9500000,
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 2100 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 39000 }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Morning Habits - Daily Routine",
+    "companyName": "LifePulse Studios",
+    "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&auto=format&fit=crop&q=80",
+    "description": "Build transformative morning routines with habit streak tracking, guided morning journal prompts, hydration reminders, and motivational quotes to kickstart every day with clarity and energy.",
+    "size": 22,
+    "reviews": 19400,
+    "ratingAvg": 4.5,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2700 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 9000 }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Task Master: Productivity Planner",
+    "companyName": "Agile Flow Software",
+    "image": "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?w=400&auto=format&fit=crop&q=80",
+    "description": "A comprehensive Kanban board and Eisenhower matrix planner in one intuitive application. Organize tasks by urgency and importance, collaborate with team members, and sync with your Google Calendar.",
+    "size": 35,
+    "reviews": 38700,
+    "ratingAvg": 4.7,
+    "downloads": 6400000,
+    "ratings": [
+      { "name": "1 star", "count": 950 },
+      { "name": "2 star", "count": 1600 },
+      { "name": "3 star", "count": 3150 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 23000 }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Klarity - Alarm Clock & Sleep",
+    "companyName": "Aura Health & Tech",
+    "image": "https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?w=400&auto=format&fit=crop&q=80",
+    "description": "Wake up refreshed with Klarity. Monitors your sleep cycles using audio smart analysis, gently waking you up during your lightest sleep phase with natural soundscapes and sunrise lighting effects.",
+    "size": 41,
+    "reviews": 47300,
+    "ratingAvg": 4.8,
+    "downloads": 7100000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 3100 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 30000 }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "ZenNotes - Smart Markdown Notes",
+    "companyName": "ByteCraft Software",
+    "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=400&auto=format&fit=crop&q=80",
+    "description": "ZenNotes is a lightning-fast Markdown note-taking app equipped with bi-directional wiki linking, graph visualization, instant search, and end-to-end encrypted cloud backup.",
+    "size": 16,
+    "reviews": 15800,
+    "ratingAvg": 4.6,
+    "downloads": 1900000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 8500 }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "MindFlow - Habit Tracker & Goals",
+    "companyName": "VibeApps Studio",
+    "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=400&auto=format&fit=crop&q=80",
+    "description": "Visualize your long-term life goals and track daily habits with beautiful heatmaps, habit streaks, custom widgets, and insightful progress analytics.",
+    "size": 20,
+    "reviews": 23400,
+    "ratingAvg": 4.7,
+    "downloads": 3300000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 14000 }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "QuickScan - Document PDF Scanner",
+    "companyName": "DocuPulse Tech",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&auto=format&fit=crop&q=80",
+    "description": "Turn your phone into a high-speed portable scanner with automatic edge detection, OCR text recognition, digital e-signatures, and instant multi-page PDF generation.",
+    "size": 27,
+    "reviews": 78900,
+    "ratingAvg": 4.9,
+    "downloads": 12500000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2400 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "BudgetPulse - Personal Finance",
+    "companyName": "FinEdge Solutions",
+    "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=400&auto=format&fit=crop&q=80",
+    "description": "Gain total financial clarity. Track expenses automatically, set monthly category budgets, monitor savings goals, and visualize cash flow with high-definition financial charts.",
+    "size": 30,
+    "reviews": 34100,
+    "ratingAvg": 4.6,
+    "downloads": 4800000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 3700 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 19000 }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "PassVault - Secure Password Manager",
+    "companyName": "CipherGuard Security",
+    "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&auto=format&fit=crop&q=80",
+    "description": "Store passwords, bank cards, and sensitive notes securely with zero-knowledge AES-256 encryption, biometric login, automated password generation, and breach alert monitoring.",
+    "size": 19,
+    "reviews": 51200,
+    "ratingAvg": 4.9,
+    "downloads": 8700000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 35000 }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "CalmSpace - Daily Meditation",
+    "companyName": "Mindfulness Works",
+    "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&auto=format&fit=crop&q=80",
+    "description": "Reduce stress and anxiety with daily guided meditations, breathing exercises, relaxing ambient music, and sleep stories designed for calm and mental wellness.",
+    "size": 38,
+    "reviews": 43900,
+    "ratingAvg": 4.8,
+    "downloads": 6900000,
+    "ratings": [
+      { "name": "1 star", "count": 850 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 3150 },
+      { "name": "4 star", "count": 10500 },
+      { "name": "5 star", "count": 28000 }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "CloudSync - Fast File Storage",
+    "companyName": "StratoCloud Networks",
+    "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&auto=format&fit=crop&q=80",
+    "description": "Access, back up, and share your photos, videos, and documents instantly across all mobile and desktop devices with end-to-end security and high-speed global CDN servers.",
+    "size": 45,
+    "reviews": 29800,
+    "ratingAvg": 4.5,
+    "downloads": 4500000,
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1900 },
+      { "name": "3 star", "count": 3800 },
+      { "name": "4 star", "count": 8000 },
+      { "name": "5 star", "count": 15000 }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "DevLog - Coding Time Tracker",
+    "companyName": "CodeCraft Tools",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&auto=format&fit=crop&q=80",
+    "description": "Built for developers. Integrates directly with IDEs and terminal editors to log coding hours, language breakdowns, git commit activity, and weekly productivity benchmarks.",
+    "size": 21,
+    "reviews": 22100,
+    "ratingAvg": 4.8,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 14000 }
+    ]
+  }
+]
