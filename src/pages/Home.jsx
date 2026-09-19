@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, CheckCircle2, Clock, Power, Timer, Pause, XCircle } from 'lucide-react';
+import { ArrowRight, Bell, ChevronLeft, Play, FileText, Gauge, Check, Power, Clock, LayoutGrid, Zap } from 'lucide-react';
 import { AppCard } from '../components/AppCard';
 import appsData from '../data/appsData.json';
 
@@ -9,9 +9,9 @@ export const Home = () => {
   const trendingApps = appsData.slice(0, 8);
 
   return (
-    <div className="space-y-16 pb-16">
+    <div className="space-y-16 pb-16 overflow-x-hidden">
       {/* Hero Section */}
-      <section className="relative pt-12 pb-6 sm:pt-16 sm:pb-12 px-4 max-w-7xl mx-auto text-center">
+      <section className="relative pt-12 pb-2 sm:pt-16 sm:pb-6 px-4 max-w-7xl mx-auto text-center">
         {/* Title */}
         <h1 className="text-4xl sm:text-6xl font-black text-slate-900 tracking-tight leading-[1.15] max-w-4xl mx-auto">
           We Build <br />
@@ -31,7 +31,7 @@ export const Home = () => {
             href="https://play.google.com/store/apps"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 bg-white hover:bg-slate-50 text-slate-800 border border-slate-200 px-5 py-2.5 rounded-lg text-sm font-semibold transition-all shadow-xs"
+            className="inline-flex items-center gap-3 bg-white hover:bg-slate-50 text-slate-800 border border-slate-200 px-5 py-2.5 rounded-xl text-sm font-semibold transition-all shadow-xs"
           >
             <svg className="w-5 h-5" viewBox="0 0 24 24">
               <path fill="#4285F4" d="M3.6 1.8l10.9 10.9L3.6 23.6c-.4-.4-.6-1-.6-1.6V2.4c0-.6.2-1.2.6-1.6z"/>
@@ -46,7 +46,7 @@ export const Home = () => {
             href="https://www.apple.com/app-store/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 bg-white hover:bg-slate-50 text-slate-800 border border-slate-200 px-5 py-2.5 rounded-lg text-sm font-semibold transition-all shadow-xs"
+            className="inline-flex items-center gap-3 bg-white hover:bg-slate-50 text-slate-800 border border-slate-200 px-5 py-2.5 rounded-xl text-sm font-semibold transition-all shadow-xs"
           >
             <svg className="w-5 h-5 fill-current text-slate-900" viewBox="0 0 24 24">
               <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.85c.66-.8 1.11-1.92.99-3.04-.96.04-2.12.64-2.8 1.44-.61.71-1.14 1.86-.99 2.96 1.07.08 2.14-.56 2.8-1.36z"/>
@@ -57,75 +57,111 @@ export const Home = () => {
 
         {/* Center Phone Mockup Showcase & Floating Badges */}
         <div className="mt-14 relative max-w-2xl mx-auto flex items-center justify-center">
-          {/* Left Floating Circular Badges */}
-          <div className="hidden sm:flex flex-col gap-8 absolute left-2 sm:-left-6 z-20">
-            {/* Cyan Timer */}
-            <div className="w-12 h-12 rounded-full bg-cyan-500 text-white flex items-center justify-center shadow-lg shadow-cyan-500/30 hover:scale-110 transition-transform">
-              <Timer className="w-6 h-6" />
+          {/* Left Floating Badges */}
+          <div className="hidden sm:flex flex-col gap-10 absolute -left-4 sm:-left-12 z-20">
+            {/* 1. Speedometer Badge (Cyan) */}
+            <div className="w-14 h-14 rounded-full bg-[#00a8cc] text-white flex items-center justify-center shadow-lg shadow-cyan-500/40 hover:scale-110 transition-transform">
+              <Gauge className="w-7 h-7" />
             </div>
-            {/* Dark Blue Check */}
-            <div className="w-12 h-12 rounded-full bg-sky-600 text-white flex items-center justify-center shadow-lg shadow-sky-600/30 hover:scale-110 transition-transform">
-              <CheckCircle2 className="w-6 h-6" />
+            {/* 2. Checkmark Badge (Dark Blue) */}
+            <div className="w-14 h-14 rounded-full bg-[#0052cc] text-white flex items-center justify-center shadow-lg shadow-blue-600/40 hover:scale-110 transition-transform">
+              <Check className="w-7 h-7 stroke-[3]" />
             </div>
-            {/* Green Power */}
-            <div className="w-12 h-12 rounded-full bg-emerald-600 text-white flex items-center justify-center shadow-lg shadow-emerald-600/30 hover:scale-110 transition-transform">
-              <Power className="w-6 h-6" />
+            {/* 3. Power Badge (Green) */}
+            <div className="w-14 h-14 rounded-full bg-[#2e7d32] text-white flex items-center justify-center shadow-lg shadow-green-600/40 hover:scale-110 transition-transform">
+              <Power className="w-7 h-7 stroke-[2.5]" />
             </div>
           </div>
 
-          {/* Phone Mockup Frame */}
-          <div className="relative z-10 w-72 sm:w-80 h-[440px] bg-slate-900 rounded-[44px] p-3 border-4 border-slate-800 shadow-2xl shadow-purple-600/30 translate-y-6">
-            <div className="w-full h-full bg-slate-950 rounded-[34px] p-4 text-white overflow-hidden flex flex-col justify-between border border-slate-800">
+          {/* Phone Frame */}
+          <div className="relative z-10 w-72 sm:w-80 h-[450px] bg-slate-900 rounded-[48px] p-2.5 border-[6px] border-slate-700 shadow-2xl shadow-purple-600/30 translate-y-10 overflow-hidden">
+            {/* Speaker Notch */}
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-5 bg-slate-900 rounded-b-2xl z-30 flex items-center justify-center gap-2">
+              <div className="w-8 h-1 bg-slate-700 rounded-full"></div>
+              <div className="w-2 h-2 bg-slate-800 rounded-full"></div>
+            </div>
+
+            {/* Screen Content */}
+            <div className="w-full h-full bg-[#120d31] rounded-[38px] pt-6 px-4 pb-4 text-white flex flex-col justify-start space-y-4 border border-slate-800 select-none text-left">
               {/* Header inside phone */}
-              <div className="flex items-center justify-between border-b border-slate-800 pb-3">
-                <span className="text-xs font-bold text-slate-300">‹ All Courses</span>
-                <div className="flex items-center gap-1.5">
-                  <span className="text-[10px] bg-amber-500/20 text-amber-300 px-2 py-0.5 rounded-full font-bold">PRO</span>
-                  <span className="text-[10px] bg-brand-600 text-white px-2 py-0.5 rounded-full font-bold">345</span>
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-1 text-slate-300 font-semibold text-xs">
+                  <ChevronLeft className="w-4 h-4" />
+                  <span>All Courses</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="bg-[#e67e22] text-white text-[10px] font-black px-2 py-0.5 rounded-full flex items-center gap-1 shadow-xs">
+                    👑 PRO
+                  </span>
+                  <span className="bg-[#ff6b6b] text-white text-[10px] font-extrabold px-2 py-0.5 rounded-full flex items-center gap-1 shadow-xs">
+                    💎 345
+                  </span>
+                  <div className="relative">
+                    <Bell className="w-4 h-4 text-slate-300" />
+                    <span className="absolute -top-0.5 -right-0.5 w-2 h-2 bg-red-500 rounded-full"></span>
+                  </div>
                 </div>
               </div>
 
               {/* Tabs */}
-              <div className="flex items-center gap-2 my-2">
-                <span className="flex-1 text-center py-1.5 rounded-lg bg-brand-600 text-[11px] font-semibold text-white">Regular Course</span>
-                <span className="flex-1 text-center py-1.5 rounded-lg bg-slate-900 text-[11px] font-semibold text-slate-400">Video Course</span>
+              <div className="flex items-center gap-2 bg-[#1b1542] p-1 rounded-xl">
+                <div className="flex-1 flex items-center justify-center gap-1.5 py-1.5 rounded-lg bg-[#6342e8] text-[11px] font-bold text-white shadow-sm">
+                  <FileText className="w-3.5 h-3.5" />
+                  <span>Regular Course</span>
+                </div>
+                <div className="flex-1 flex items-center justify-center gap-1.5 py-1.5 rounded-lg text-[11px] font-medium text-slate-400">
+                  <Play className="w-3 h-3 fill-current" />
+                  <span>Video Course</span>
+                </div>
               </div>
 
-              {/* Course items */}
-              <div className="space-y-2.5 text-left my-auto">
-                <p className="text-[11px] font-bold text-slate-400">Chose your Course</p>
-                <div className="p-3.5 rounded-2xl bg-gradient-to-br from-brand-600 to-indigo-700 text-white space-y-1 shadow-md">
-                  <p className="text-xs font-extrabold">Complete Web development</p>
-                  <div className="flex items-center justify-between text-[10px] text-brand-200">
-                    <span>203 Lesson</span>
-                    <span>32%</span>
-                  </div>
-                  <div className="w-full bg-brand-900/50 h-1.5 rounded-full overflow-hidden mt-1">
-                    <div className="bg-amber-400 h-full w-[32%] rounded-full"></div>
-                  </div>
-                </div>
+              {/* Section Header */}
+              <p className="text-xs font-bold text-slate-200 pt-1">Chose your Course</p>
 
-                <div className="p-3.5 rounded-2xl bg-gradient-to-br from-orange-500 to-amber-600 text-white space-y-1 shadow-md">
-                  <p className="text-xs font-extrabold">Python Programming</p>
-                  <p className="text-[10px] text-orange-100">145 Lesson</p>
+              {/* Card 1: Web Dev */}
+              <div className="relative p-4 rounded-2xl bg-gradient-to-r from-[#7c3aed] to-[#6366f1] text-white shadow-lg overflow-hidden">
+                <div className="pr-16 space-y-1">
+                  <p className="text-xs font-extrabold leading-tight">Complete Web development</p>
+                  <p className="text-[10px] text-purple-200 font-medium">203 Lesson</p>
                 </div>
+                <span className="absolute bottom-3 left-32 text-[10px] font-bold text-purple-100">32%</span>
+
+                {/* Right side floating code window illustration */}
+                <div className="absolute right-2 top-3 w-16 h-12 bg-[#2d1b69] border border-purple-400/30 rounded-lg p-1.5 shadow-md flex flex-col justify-between">
+                  <div className="flex items-center gap-1">
+                    <div className="w-1.5 h-1.5 rounded-full bg-red-400"></div>
+                    <div className="w-1.5 h-1.5 rounded-full bg-yellow-400"></div>
+                    <div className="w-1.5 h-1.5 rounded-full bg-green-400"></div>
+                  </div>
+                  <div className="space-y-1">
+                    <div className="w-full bg-purple-400/50 h-1 rounded-full"></div>
+                    <div className="w-3/4 bg-purple-300/40 h-1 rounded-full"></div>
+                    <div className="w-1/2 bg-amber-400/80 h-1 rounded-full"></div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Card 2: Python */}
+              <div className="p-4 rounded-2xl bg-gradient-to-r from-[#ff6b6b] to-[#ff8e53] text-white shadow-lg space-y-1">
+                <p className="text-xs font-extrabold">Python Programming</p>
+                <p className="text-[10px] text-orange-100 font-medium">145 Lesson</p>
               </div>
             </div>
           </div>
 
-          {/* Right Floating Circular Badges */}
-          <div className="hidden sm:flex flex-col gap-8 absolute right-2 sm:-right-6 z-20">
-            {/* Red Clock */}
-            <div className="w-12 h-12 rounded-full bg-red-500 text-white flex items-center justify-center shadow-lg shadow-red-500/30 hover:scale-110 transition-transform">
-              <Clock className="w-6 h-6" />
+          {/* Right Floating Badges */}
+          <div className="hidden sm:flex flex-col gap-10 absolute -right-4 sm:-right-12 z-20">
+            {/* 4. Clock Badge (Red) */}
+            <div className="w-14 h-14 rounded-full bg-[#f44336] text-white flex items-center justify-center shadow-lg shadow-red-500/40 hover:scale-110 transition-transform">
+              <Clock className="w-7 h-7" />
             </div>
-            {/* Blue Pause */}
-            <div className="w-12 h-12 rounded-full bg-indigo-600 text-white flex items-center justify-center shadow-lg shadow-indigo-600/30 hover:scale-110 transition-transform">
-              <Pause className="w-6 h-6" />
+            {/* 5. Trello/Layout Badge (Blue) */}
+            <div className="w-14 h-14 rounded-full bg-[#0067b8] text-white flex items-center justify-center shadow-lg shadow-blue-600/40 hover:scale-110 transition-transform">
+              <LayoutGrid className="w-7 h-7" />
             </div>
-            {/* Light Blue Cross */}
-            <div className="w-12 h-12 rounded-full bg-sky-400 text-white flex items-center justify-center shadow-lg shadow-sky-400/30 hover:scale-110 transition-transform">
-              <XCircle className="w-6 h-6" />
+            {/* 6. Swords/Tools Badge (Cyan/Blue) */}
+            <div className="w-14 h-14 rounded-full bg-[#0288d1] text-white flex items-center justify-center shadow-lg shadow-sky-500/40 hover:scale-110 transition-transform">
+              <Zap className="w-7 h-7" />
             </div>
           </div>
         </div>
