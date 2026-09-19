@@ -86,3 +86,4 @@ export const InstalledProvider = ({ children }) => {
 };
 
 export const useInstalled = () => useContext(InstalledContext);
+

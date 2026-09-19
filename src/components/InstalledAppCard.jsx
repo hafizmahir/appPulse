@@ -56,3 +56,4 @@ export const InstalledAppCard = ({ app, onUninstall }) => {
     </div>
   );
 };
+

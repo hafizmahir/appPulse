@@ -11,3 +11,4 @@ export const LoadingSpinner = ({ label = 'Loading apps...' }) => {
     </div>
   );
 };
+

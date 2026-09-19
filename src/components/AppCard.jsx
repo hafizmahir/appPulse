@@ -52,3 +52,4 @@ export const AppCard = ({ app }) => {
     </Link>
   );
 };
+

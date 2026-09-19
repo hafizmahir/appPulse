@@ -12,3 +12,4 @@ export const StarRating = ({ rating, count }) => {
     </div>
   );
 };
+
